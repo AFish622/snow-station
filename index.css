@@ -1,3 +1,81 @@
-.header {
-	color: red;
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+.topnav {
+	background-color: #6BCDE5;
+	width: 100%;
+	padding-left: 34%;
+}
+
+a.menu, a.location {
+	font-size: 30px;
+	text-decoration: none;
+	color: white;
+}
+
+.logo {
+	height: 125px;
+	width: 125px;
+	vertical-align: middle;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.hero-image {
+	width: 100%;
+	/*height: 550px;*/
+}
+
+.main {
+	margin-top: -5px;
+}
+
+.menu-image {
+	width: 100%;
+}
+
+.location-container {
+	background-color: #6BCDE5;
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+
+h2.visit {
+	display: inline;
+	width: 500px;
+	margin-left: 300px;
+	margin-bottom: : 20px;
+}
+
+h2.contact {
+	display: inline;
+	width: 50%;
+	margin-left: 500px;
+}
+
+.map {
+	display: inline-block;
+	height: 350px;
+	width: 500px;
+	margin-left: 100px;
+	padding-top: 20px;
+}
+
+.contact-info {
+	list-style-type: none;
+	float: right;
+	padding-right: 450px;
+}
+
+li {
+	padding-bottom: 15px;
+}
+
+.address {
+	padding-left: 140px;
 }
