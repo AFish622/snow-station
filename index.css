@@ -3,7 +3,9 @@ html, body {
     height: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden; 
+    overflow-x: hidden;
+	background-color: #69C0D7;
+	font-family: 'Fjalla One', sans-serif; 
 }
 
 .topnav {
@@ -31,6 +33,11 @@ a.menu, a.location {
 	/*height: 550px;*/
 }
 
+.bio {
+	height: 500px;
+	text-align: center;
+}
+
 .main {
 	margin-top: -5px;
 }
@@ -39,9 +46,24 @@ a.menu, a.location {
 	width: 100%;
 }
 
+.specialties-menu {
+	width: 100%;
+}
+
+img.spec-item {
+	width: 33%;
+}
+
+
+.fb-icon, .ig-icon {
+	height: 50px;
+	width: 50px;
+	cursor: pointer;
+}
+
 .location-container {
 	background-color: #6BCDE5;
-	padding-top: 20px;
+	padding-top: 50px;
 	padding-bottom: 50px;
 }
 
